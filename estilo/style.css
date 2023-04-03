@@ -55,16 +55,30 @@ section.normal{
     color: black;
 }
 section.imagem{
-    background-color: rgba(39, 38, 38, 0.603);
+    background-color: rgba(39, 38, 38, 0.493);
     color: white;
-
+    box-shadow: inset 6px 6px 15px 0px rgba(0, 0, 0, 0.459);
+    background-attachment: fixed;
+}
+section p{
+    padding-bottom: 1.5em;
 }
 section.imagem >p{
     display: inline-block;
     padding: 5px;
     background-color: rgba(0, 0, 0, 0.438);
+    text-shadow: 1px 1px 2px black;
 }
-
+section#img01{
+    background-image: url(../imagens/background001.jpg);
+    background-position: right center;
+    background-size: cover;
+}
+section#img02{
+    background-image: url(../imagens/background002.jpg);
+    background-position: right center;
+    background-size: cover;
+}
 
 footer{
     color: white;
